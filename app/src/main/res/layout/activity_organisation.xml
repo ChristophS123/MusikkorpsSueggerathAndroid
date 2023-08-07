@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".OrganisationActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:theme="@style/Theme.Kanban.AppBarOverlay"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            app:titleTextColor="@color/white"
+            android:id="@+id/tb_organisation"
+            app:popupTheme="@style/Theme.Kanban.PopUpOverlay"
+            android:layout_height="?attr/actionBarSize">
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/icon"
+        android:layout_height="200dp">
+    </ImageView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginStart="16dp"
+        android:text="5 Proben generieren"
+        android:layout_marginTop="64dp"
+        android:id="@+id/cmd_organisation_generate_training"
+        android:layout_marginEnd="16dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginStart="16dp"
+        android:text="Termin eintragen"
+        android:layout_marginTop="8dp"
+        android:id="@+id/cmd_organisation_generate_event"
+        android:layout_marginEnd="16dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginStart="16dp"
+        android:text="Vereinsmitglieder verwalten"
+        android:layout_marginTop="8dp"
+        android:id="@+id/cmd_organisation_manage_team"
+        android:layout_marginEnd="16dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/cmd_organisation_create_voting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Lied-Abstimmung erstellen">
+
+    </Button>
+
+</LinearLayout>

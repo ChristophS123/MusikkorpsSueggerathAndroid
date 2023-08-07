@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "277172634599",
+    "project_id": "musikkorpsminus",
+    "storage_bucket": "musikkorpsminus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277172634599:android:95e054ba4ada5440e9b342",
+        "android_client_info": {
+          "package_name": "de.christoph.musikkorpsminus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277172634599-r6e7r7j5d1v8djs46998n4nk2qnmdii3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj3KQxMmO2k0hjmGG6uCPw2dYYmuMWic4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277172634599-r6e7r7j5d1v8djs46998n4nk2qnmdii3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

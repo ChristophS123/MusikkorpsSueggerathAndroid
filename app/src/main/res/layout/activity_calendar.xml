@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/swipe_calendar"
+    android:layout_height="match_parent"
+    tools:context=".CalendarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.Kanban.AppBarOverlay"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                app:titleTextColor="@color/white"
+                android:id="@+id/tb_calendar"
+                app:popupTheme="@style/Theme.Kanban.PopUpOverlay"
+                android:layout_height="?attr/actionBarSize">
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:text="Proben standartmäßig zusagen"
+            android:id="@+id/cb_promise_training"
+            android:layout_height="wrap_content">
+        </CheckBox>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/training"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:tooltipText="Proben"
+            android:id="@+id/rv_training"
+            android:layout_height="0dp">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/other_events"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/rv_events"
+            android:tooltipText="Andere Termine"
+            android:layout_height="0dp">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

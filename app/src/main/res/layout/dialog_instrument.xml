@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:id="@+id/cmd_dialog_instrument_alto_saxophone"
+        android:text="Alt Saxofon"
+        android:padding="8dip"
+        android:backgroundTint="@color/main_color"
+        android:layout_height="wrap_content">
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:id="@+id/cmd_dialog_instrument_tenor_saxophone"
+        android:text="Tenor Saxofon"
+        android:padding="8dip"
+        android:backgroundTint="@color/main_color"
+        android:layout_height="wrap_content">
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:id="@+id/cmd_dialog_instrument_trombone"
+        android:text="Posaune"
+        android:backgroundTint="@color/main_color"
+        android:padding="8dip"
+        android:layout_height="wrap_content">
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:id="@+id/cmd_dialog_instrument_trumpet"
+        android:text="Trompete"
+        android:backgroundTint="@color/main_color"
+        android:padding="8dip"
+        android:layout_height="wrap_content">
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:id="@+id/cmd_dialog_instrument_flute"
+        android:text="Flöte"
+        android:backgroundTint="@color/main_color"
+        android:padding="8dip"
+        android:layout_height="wrap_content">
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:id="@+id/cmd_dialog_instrument_percussion"
+        android:text="Schlagwerk"
+        android:backgroundTint="@color/main_color"
+        android:padding="8dip"
+        android:layout_height="wrap_content">
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:id="@+id/cmd_dialog_instrument_baritone"
+        android:text="Bariton"
+        android:backgroundTint="@color/main_color"
+        android:padding="8dip"
+        android:layout_height="wrap_content">
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:id="@+id/cmd_dialog_instrument_clarinet"
+        android:text="Klarinette"
+        android:backgroundTint="@color/main_color"
+        android:padding="8dip"
+        android:layout_height="wrap_content">
+    </com.google.android.material.button.MaterialButton>
+
+</LinearLayout>

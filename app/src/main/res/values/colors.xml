@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#2196F3</color>
+    <color name="highlight_color">#FF9800</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="snackbar_error">#FF0000</color>
+    <color name="abo_red">#FF1818</color>
+    <color name="gray">#E6E6E6</color>
+    <color name="main_color_background">#FFF4D4</color>
+    <color name="green">#8BC34A</color>
+</resources>

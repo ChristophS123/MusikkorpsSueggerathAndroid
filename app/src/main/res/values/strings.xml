@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MusikkorpsMinus</string>
+    <string name="sign_in_tutorial">Gebe deine Email und dein Passwort ein, um dich einzuloggen.</string>
+    <string name="email">Email</string>
+    <string name="password">Passwort</string>
+    <string name="sign_in">Einloggen</string>
+    <string name="sign_up">Registrieren</string>
+    <string name="repeat_password">Passwort wiederholen</string>
+    <string name="name">Name</string>
+    <string name="sign_up_tutorial">Bitte gebe deine Daten ein, um dich zu registrieren.</string>
+    <string name="votings">Lied Abstimmungen</string>
+    <string name="admin_tools">Organisation</string>
+    <string name="sign_out">Abmelden</string>
+    <string name="calendar">Kalender</string>
+    <string name="training">Proben</string>
+    <string name="other_events">Sonstige Termine</string>
+    <string name="promise">Zusagen</string>
+    <string name="cancel">Absagen</string>
+    <string name="date">Datum</string>
+    <string name="submit">Erstellen</string>
+    <string name="time">Uhrzeit</string>
+    <string name="name_of_song">Name des Lieds</string>
+</resources>
